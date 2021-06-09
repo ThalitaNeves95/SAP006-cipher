@@ -1,5 +1,5 @@
 const cipher = {
-  // ...
-};
-
-export default cipher;
+    const alphabet = 
+  };
+  
+  export default cipher; 
