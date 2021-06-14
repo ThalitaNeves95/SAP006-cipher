@@ -21,17 +21,19 @@
     </header>
 
     <div class="caixas">
-      <input type="text" class="input-text-1" id="mensagem1" placeholder="Digite aqui a mensagem a ser cifrada">
-      <button class="botoes" id="botao1">Cifrar</button>
-      <input type="number" class="offset" id="offset" value="cifrar">
-      <input type="text" class="input-text-1" id="mensagem2" placeholder="Digite aqui a mensagem a ser decifrada">
-      <button class="botoes" id="botao2">Decifrar</button>
-    </div>
-    
+      <input type="number" class="offset" id="offsetCif" value="" placeholder="Digite a senha">    
+      <input type="text" class="input-text-1" id="serCifrada" placeholder="Digite aqui a mensagem a ser cifrada">
+      <button class="botoes" id="botaoCifrar">Cifrar</button>
+      <p id="msgCifrada" ></p>
 
+      <input type="number" class="offset" id="offsetDec" value="" placeholder="Digite a senha">
+      <input type="text" class="input-text-1" id="serDecifrada" placeholder="Digite aqui a mensagem a ser decifrada">
+      <button class="botoes" id="botaoDecifrar">Decifrar</button> 
+      <p id="msgDecifrada"></p>
 
+      <button id="limpar">Limpar Tela</button>
+    </div>    
   </div>
-  
   <script src="index.js" type="module"></script>
 </body>
 </html> 

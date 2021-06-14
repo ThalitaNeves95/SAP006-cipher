@@ -18,6 +18,14 @@ body{
     background-color: white;        
 }
 
+.msgCifrada {
+    background-color: white;
+}
+
+.msgDecifrada {
+    background-color: white;
+}
+
 .caixas {
     text-align: center;
     padding: 270px;
@@ -45,3 +53,4 @@ body{
     font-size: 30px;
     padding: 5px;
 }
+
