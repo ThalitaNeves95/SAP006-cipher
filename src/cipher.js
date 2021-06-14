@@ -11,6 +11,7 @@ const cipher = {
     return msgCodificada;
     },
 
+  console.log("teste")
     
     decode: function descriptografar(offset, string){
         let msgDesco = "";
