@@ -11,7 +11,8 @@ const cipher = {
     return msgCodificada;
     },
 
-    
+    // arroz
+
     decode: function descriptografar(offset, string){
         let msgDesco = "";
         for(let i = 0; i < string.length; i++) {
