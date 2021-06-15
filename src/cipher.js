@@ -1,6 +1,16 @@
 const cipher = {
     encode: function criptografar(offset, string) {
+
+        //Condição de teste erro - caso usuário digite elemento não aceito
+        if(typeof offset != "number"){
+            throw new TypeError("o tipo da variável offset deve ser um número")
+        }
+        if(typeof string != "string"){
+            throw new TypeError("o tipo da variável string deve ser uma string")
+        }
+        
         let msgCodificada = "";
+
         for(let i = 0; i < string.length; i++) {
             let caractereCifrado = string.charCodeAt(i);
         if(caractereCifrado >= 65 && caractereCifrado <= 90){
@@ -11,9 +21,19 @@ const cipher = {
     return msgCodificada;
     },
 
-  
+
     decode: function descriptografar(offset, string){
+
+        //Condição de teste erro - caso usuário digite elemento não aceito
+        if(typeof offset != "number"){
+            throw new TypeError("o tipo da variável offset deve ser um número")
+        }
+        if(typeof string != "string"){
+            throw new TypeError("o tipo da variável string deve ser uma string")
+        }
+
         let msgDesco = "";
+
         for(let i = 0; i < string.length; i++) {
             let caractereDescifrado = string.charCodeAt(i);
         if(caractereDescifrado >= 65 && caractereDescifrado <= 90) {

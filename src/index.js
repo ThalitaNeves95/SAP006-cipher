@@ -1,5 +1,5 @@
 import cipher from './cipher.js';
-
+//Função/variáveis botões
 let botaoCifrar = document.getElementById("botaoCifrar")
 let botaoDecifrar = document.getElementById("botaoDecifrar")
 let botaoLimpar = document.getElementById("limpar")
