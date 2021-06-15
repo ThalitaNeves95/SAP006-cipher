@@ -15,7 +15,11 @@ const cipher = {
             let caractereCifrado = string.charCodeAt(i);
         if(caractereCifrado >= 65 && caractereCifrado <= 90){
            caractereCifrado = ((caractereCifrado - 65 + offset) % 26 + 65);
-        } 
+        } else if(caractereCifrado >= 97 && caractereCifrado <= 122) {
+           caractereCifrado = ((caractereCifrado - 97 + offset) % 26 + 97);
+        } else {
+            caractereCifrado 
+        }
         msgCodificada += String.fromCharCode(caractereCifrado);  
         }
     return msgCodificada;
@@ -38,6 +42,10 @@ const cipher = {
             let caractereDescifrado = string.charCodeAt(i);
         if(caractereDescifrado >= 65 && caractereDescifrado <= 90) {
            caractereDescifrado = ((caractereDescifrado - 90 - offset) % 26 + 90);
+        } else if (caractereDescifrado >= 97 && caractereDescifrado <= 122) {
+           caractereDescifrado = ((caractereDescifrado - 122 - offset) % 26 + 122)
+        } else {
+            caractereDescifrado 
         }
         msgDesco += String.fromCharCode(caractereDescifrado);
         }
