@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cifra da Resistência</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root"> 
+
+    <header class="cabecalho"> 
+
+      <h1 class="nome">Cifra da Resistência</h1>
+        <p>Cifrar significa codificar. </p>
+        <p> Cifra de César é um dos primeiros tipos de criptografias conhecidas na história.</p>
+          O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha. 
+        <p>Decidimos utilizar essa maravilha do mundo antigo, para criar um canal seguro de comunicação entre nossos ativistas, em 
+        prol da democracia no nosso país. Estamos sendo perseguidos por querer um mundo igualitário de oportunidade para todos. 
+        Basta escolher um código de deslocamento do caractere, que será o mesmo utilizado para a decifração.</p>
+    </header>
+
+    <div class="caixas">
+      <input type="number" class="offset" id="offsetCif" value="" placeholder="Digite a senha">    
+      <input type="text" class="input-text-1" id="serCifrada" placeholder="Digite aqui a mensagem a ser cifrada">
+      <button class="botoes" id="botaoCifrar">Cifrar</button>
+      <p id="msgCifrada"></p>
+
+      <input type="number" class="offset" id="offsetDec" value="" placeholder="Digite a senha">
+      <input type="text" class="input-text-1" id="serDecifrada" placeholder="Digite aqui a mensagem a ser decifrada">
+      <button class="botoes" id="botaoDecifrar">Decifrar</button> 
+      <p id="msgDecifrada"></p>
+
+      <button id="limpar">Limpar Tela</button>
+    </div>    
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html> 
