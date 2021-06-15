@@ -20,6 +20,7 @@ body{
 
 .msgCifrada {
     background-color: white;
+    width: 60px;
 }
 
 .msgDecifrada {

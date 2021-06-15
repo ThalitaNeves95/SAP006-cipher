@@ -1,4 +1,4 @@
-# Cifra de César
+# Cifra da Resistência 
 
 ## Índice
 
@@ -43,7 +43,7 @@ com facilidade e não oferecem muita segurança na comunicação, mas a cifra de
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Resumo do projeto
+## 2. Resumo do produto
 
 O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
 aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decifrar um texto

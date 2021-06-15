@@ -8,14 +8,14 @@ const cipher = {
         if(typeof string != "string"){
             throw new TypeError("o tipo da variável string deve ser uma string")
         }
-        
+
         let msgCodificada = "";
 
         for(let i = 0; i < string.length; i++) {
             let caractereCifrado = string.charCodeAt(i);
         if(caractereCifrado >= 65 && caractereCifrado <= 90){
            caractereCifrado = ((caractereCifrado - 65 + offset) % 26 + 65);
-        }
+        } 
         msgCodificada += String.fromCharCode(caractereCifrado);  
         }
     return msgCodificada;
