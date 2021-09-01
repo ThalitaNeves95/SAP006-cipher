@@ -19,6 +19,7 @@ const cipher = {
            caractereCifrado = ((caractereCifrado - 97 + offset) % 26 + 97);
         } else {
             caractereCifrado 
+            
         }
         msgCodificada += String.fromCharCode(caractereCifrado);  
         }

@@ -21,17 +21,21 @@
     </header>
 
     <div class="caixas">
-      <input type="number" class="offset" id="offsetCif" value="" placeholder="Digite a senha">    
-      <input type="text" class="input-text-1" id="serCifrada" placeholder="Digite aqui a mensagem a ser cifrada">
-      <button class="botoes" id="botaoCifrar">Cifrar</button>
-      <p id="msgCifrada"></p>
+      <div class="cifrar">
+        <input type="number" class="offset" id="offsetCif" value="" placeholder="Digite a senha">    
+        <input type="text" class="input-text-1" id="serCifrada" placeholder="Digite aqui a mensagem a ser cifrada">
+        <button class="botoes" id="botaoCifrar">Cifrar</button>
+        <p id="msgCifrada" class="msg-cifrada"></p>
+      </div>
 
-      <input type="number" class="offset" id="offsetDec" value="" placeholder="Digite a senha">
-      <input type="text" class="input-text-1" id="serDecifrada" placeholder="Digite aqui a mensagem a ser decifrada">
-      <button class="botoes" id="botaoDecifrar">Decifrar</button> 
-      <p id="msgDecifrada"></p>
+      <div class="decifrar">
+        <input type="number" class="offset" id="offsetDec" value="" placeholder="Digite a senha">
+        <input type="text" class="input-text-1" id="serDecifrada" placeholder="Digite aqui a mensagem a ser decifrada">
+        <button class="botoes" id="botaoDecifrar" >Decifrar</button> 
+        <p id="msgDecifrada" class="msg-decifrada"></p>
+      </div>
 
-      <button id="limpar">Limpar Tela</button>
+      <button id="limpar" class="btn-limpar">Limpar Tela</button>
     </div>    
   </div>
   <script src="index.js" type="module"></script>
