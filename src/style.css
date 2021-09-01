@@ -4,8 +4,9 @@ body{
 }
 
 .cabecalho {
-    width: 600px;
-    padding: 10px;
+    width: 80%;
+    display: flex;
+    /* padding: 10px; */
     margin: auto;
     border-radius: 50px;
     border: auto;
@@ -13,46 +14,74 @@ body{
     color: black;
     font-size: 15px;
     font-family: sans-serif;
-    box-shadow: 20px 20px 20px black;
-    color: black;   
-    background-color: white;        
+    /* box-shadow: 20px 20px 20px black; */
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: -10%;        
 }
 
-.msgCifrada {
+.msg-cifrada {
     background-color: white;
-    width: 60px;
+    font-size: 30px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
 }
 
-.msgDecifrada {
+.msg-decifrada {
     background-color: white;
+    font-size: 30px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+
+    
 }
 
 .caixas {
-    text-align: center;
     padding: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
     
 }
 
 .botoes {
-    width: 150px;
+    width: 25%;
     padding: 10px;
-    margin: auto;
     font-size: 25px;
     background-color: black;
     color: white;
+    margin-top: 2%;
 }
 
 .offset {
-    width: 200px;
+    width: 25%;
     font-size: 30px;
     text-align: center;
     margin: 5px;
+    margin-top: 2%;
 }
 
 
 .input-text-1 {
-    width: 700px;
+    width: 70%;
     font-size: 30px;
     padding: 5px;
+    margin-top: 1%;
+}
+
+.btn-limpar {
+    width: 25%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: hsl(11deg 80% 45%);
+    color: white;
+    margin-top: 2%;
 }
 
